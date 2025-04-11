@@ -6,7 +6,7 @@ int sporth_dcblock(sporth_stack *stack, void *ud)
 
     SPFLOAT out;
     SPFLOAT in;
-    sp_dcblock *data;
+    sp_dcblocker *data;
     switch(pd->mode){
         case PLUMBER_CREATE:
 #ifdef DEBUG_MODE
